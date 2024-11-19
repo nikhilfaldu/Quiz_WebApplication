@@ -1,0 +1,19 @@
+.score{
+    text-align: left;
+    position: relative;
+    left: -4rem;
+    top: -2rem;
+   
+}
+
+.lan{
+    color: #E1306C;
+    font-size: 2rem;
+    position: relative;
+    top: -5rem;
+    font-weight: 900;
+}
+
+.button{
+    margin: 2%;
+}

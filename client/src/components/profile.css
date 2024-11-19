@@ -1,0 +1,32 @@
+.imgg {
+    width: 64%;
+    position: relative;
+    left: 33%;
+  }
+  
+  .bg-black {
+    background: #000;
+  }
+  
+  .skill-block {
+    width: 20%;
+    height: 25%;
+  }
+
+  
+  @media (min-width: 991px) and (max-width:1200px) {
+    .skill-block {
+      padding: 32px !important;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .skill-block {
+      padding: 56px !important;
+    }
+  }
+  
+  .containerr {
+    background-color: #eeeeee;
+
+  }

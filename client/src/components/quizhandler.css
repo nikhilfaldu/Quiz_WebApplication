@@ -1,0 +1,33 @@
+.Appquize {
+  --twitter-color: #1DA1F2;
+
+    background-color:hwb(209 5% 27%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 575px;
+    height: min-content;
+    padding: 30px 20px;
+    box-shadow: 10px 10px 42px 0px hwb(209 1% 56%);
+    border-radius: 10px;
+    position: absolute;
+    top:25%;
+    left: 30%;
+  }
+  
+  .button {
+    cursor: pointer;
+    background-color: white;
+    color: hwb(209 5% 27%);
+    border: none;
+    padding: 5px;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+  }
+  .score{
+    color: aliceblue;
+  }
