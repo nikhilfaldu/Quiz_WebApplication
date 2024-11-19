@@ -1,0 +1,53 @@
+.badge {
+	margin: 2em 3em;
+	width: 12em;
+	height: 12em;
+	border-radius: 20%;
+	display: inline-block;
+	top: 0;
+	transition: all 0.2s ease;
+  box-shadow: 8px 10px 12px 3px rgba(0, 0, 0, 0.43);
+
+  
+}
+.badge:hover{
+ 
+	margin: 2em 3em;
+	width: 13em;
+	height: 13em;
+	border-radius: 20%;
+	display: inline-block;
+	top: 0;
+	transition: all 0.2s ease;
+  box-shadow: 8px 10px 12px 3px rgba(0, 0, 0, 0.43);
+
+
+}
+.badge:hover .rounded {
+  width: 9em;
+  height: 9em;
+  transition: all 0.2s ease;
+}
+
+.rounded {
+  width: 8em;
+  height: 8em;
+  background: white;
+  position: absolute;
+  margin: 1.5em;
+  z-index: 10;
+   border-radius: 80%;
+   transition: all 0.2s ease;
+  box-shadow: 8px 8px 8px 2px rgba(0, 0, 0, 0.23);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+
+}
+
+.orange {
+    background: darkorange;
+    color: orange;
+  }

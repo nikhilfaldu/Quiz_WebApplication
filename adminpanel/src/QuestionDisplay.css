@@ -1,0 +1,70 @@
+/* Question container */
+.question {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f3f3f3; /* Light background color */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft box shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition effect */
+}
+
+/* Hover effect on question container */
+.question:hover {
+  transform: translateY(-3px); /* Move up slightly on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Add larger box shadow on hover */
+}
+
+/* Question heading */
+.question h3 {
+  margin-bottom: 10px;
+  color: #343a40; /* Dark text color */
+}
+
+/* Answer list */
+.answers {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Answer item */
+.answers li {
+  padding: 8px 0;
+  transition: background-color 0.3s ease; /* Smooth transition */
+  border-bottom: 1px solid #dee2e6; /* Add border between answer items */
+}
+
+/* Last answer item */
+.answers li:last-child {
+  border-bottom: none; /* Remove border from last answer item */
+}
+
+/* Correct answer style */
+.answers li.correct-answer {
+  color: #28a745; /* Green color for correct answer */
+}
+
+/* Hover effect on answer items */
+.answers li:hover {
+  background-color: #dadada; /* Light background color on hover */
+}
+
+/* Correct text style */
+.correct-text {
+  font-weight: bold;
+}
+
+/* Remove button */
+.btn-remove {
+  background-color: #dc3545; /* Red color for remove button */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect on remove button */
+.btn-remove:hover {
+  background-color: #c82333; /* Darker red color on hover */
+}
